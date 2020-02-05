@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  ithomecrawler:
+    image: jupyter/datascience-notebook 
+    ports:
+      - 52698:8888
+    volumes: 
+      - D:\case\nCoVCrawler\notebook:/home/jovyan/work/
+    command: start-notebook.sh --NotebookApp.token=""  
