@@ -6,5 +6,5 @@ services:
     ports:
       - 52698:8888
     volumes: 
-      - D:\case\nCoVCrawler\notebook:/home/jovyan/work/
+      - ..\nCoVCrawler\notebook:/home/jovyan/work/
     command: start-notebook.sh --NotebookApp.token=""  
