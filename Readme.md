@@ -1,0 +1,1 @@
+- docker run --name jupyter -v D:\case\nCoVCrawler\notebook:/home/jovyan/work/ -d -p 52698:8888 jupyter/datascience-notebook start-notebook.sh --NotebookApp.token=""
